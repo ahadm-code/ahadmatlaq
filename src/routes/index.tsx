@@ -20,17 +20,16 @@ export const Route = createFileRoute('/')({
 
 // ─── Constants — Edit these with your real info ────────────────────────────────
 const PERSONAL = {
-  name: 'Alex Mercer',           // EDIT: Your full name
-  title: 'Full-Stack Engineer',  // EDIT: Your professional title
-  city: 'Cairo',                 // EDIT: Your city
-  country: 'Egypt',              // EDIT: Your country
-  email: 'alex@example.com',     // EDIT: Your email
-  phone: '+20 100 000 0000',     // EDIT: Your phone
-  linkedin: 'https://linkedin.com/in/yourprofile', // EDIT: Your LinkedIn URL
-  github: 'https://github.com/yourusername',       // EDIT: Your GitHub URL
-  bio: `Passionate engineer crafting high-performance web applications and intelligent systems.
-        Specializing in modern React ecosystems, distributed architectures, and AI-driven solutions.
-        Turning complex problems into elegant, scalable code.`, // EDIT: Your bio
+  name: 'Ahad Matlaq',           // EDIT: Your full name
+  title: 'Computer Science Graduate',  // EDIT: Your professional title
+  city: 'Tabuk',                 // EDIT: Your city
+  country: 'Saudi Arabia',              // EDIT: Your country
+  email: 'ahad.matlaq@gmail.com',     // EDIT: Your email
+  phone: '+966553914401',     // EDIT: Your phone
+  linkedin: 'https://www.linkedin.com/in/ahad-matlaq-901b6530a', // EDIT: Your LinkedIn URL
+
+  bio: `Computer Science graduate passionate about building modern and user-friendly applications.
+I enjoy turning ideas into real projects using clean and efficient code, and I'm always eager to learn new technologies..`, // EDIT: Your bio
   cvFile: '/cv.pdf',  // EDIT: Path to your CV file in /public/
 }
 
@@ -532,14 +531,13 @@ function EducationSection() {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "Cairo University",
-      period: "2020 – 2024",
-      location: "Cairo, Egypt",
-      gpa: "3.8 / 4.0",
-      highlights: [
-        "Graduation Project: AI-Powered Resume Builder (Grade: Excellent)",
-        "Dean's Honor List — 2021, 2022, 2023",
-        "Teaching Assistant: Algorithms & Data Structures",
+      institution: " University of Tabuk",
+      period: "2021 – 2026",
+      location: "Tabuk",
+      description: `Studied core areas of computer science such as algorithms, data structures, software engineering, and database systems.
+
+Worked on multiple academic projects involving web development and problem-solving using modern programming tools.`,
+tags: ['Algorithms', 'Data Structures', 'Software Engineering', 'Web Development'],
       ],
     },
     // EDIT: Add or remove education entries as needed
